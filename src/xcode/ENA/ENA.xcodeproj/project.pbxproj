@@ -273,6 +273,8 @@
 		503DB1A7255D822E00576E57 /* ExposureSubmissionIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503DB1A6255D822E00576E57 /* ExposureSubmissionIntroViewController.swift */; };
 		503DB1AC255D826900576E57 /* ExposureSubmissionIntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503DB1AB255D826900576E57 /* ExposureSubmissionIntroViewModel.swift */; };
 		505F2E522587738900697CC2 /* AccessibilityLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F2E512587738900697CC2 /* AccessibilityLabels.swift */; };
+		5081BFCF25B593FF004FCCFD /* ENAUITestsContactDiaryStressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081BFCE25B593FF004FCCFD /* ENAUITestsContactDiaryStressTest.swift */; };
+		5081BFD725B5942A004FCCFD /* MOCK_DATA.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5081BFD625B5942A004FCCFD /* MOCK_DATA.csv */; };
 		50B1D6E72551621C00684C3C /* DayKeyPackageDownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B1D6E62551621C00684C3C /* DayKeyPackageDownloadTests.swift */; };
 		50BD2E6224FE1E8700932566 /* AppInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BD2E6124FE1E8700932566 /* AppInformationModel.swift */; };
 		50BD2E6424FE232E00932566 /* AppInformationImprintViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BD2E6324FE232E00932566 /* AppInformationImprintViewModel.swift */; };
@@ -962,6 +964,8 @@
 		503DB1A6255D822E00576E57 /* ExposureSubmissionIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureSubmissionIntroViewController.swift; sourceTree = "<group>"; };
 		503DB1AB255D826900576E57 /* ExposureSubmissionIntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureSubmissionIntroViewModel.swift; sourceTree = "<group>"; };
 		505F2E512587738900697CC2 /* AccessibilityLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityLabels.swift; sourceTree = "<group>"; };
+		5081BFCE25B593FF004FCCFD /* ENAUITestsContactDiaryStressTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENAUITestsContactDiaryStressTest.swift; sourceTree = "<group>"; };
+		5081BFD625B5942A004FCCFD /* MOCK_DATA.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MOCK_DATA.csv; sourceTree = "<group>"; };
 		50B1D6E62551621C00684C3C /* DayKeyPackageDownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKeyPackageDownloadTests.swift; sourceTree = "<group>"; };
 		50BD2E6124FE1E8700932566 /* AppInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationModel.swift; sourceTree = "<group>"; };
 		50BD2E6324FE232E00932566 /* AppInformationImprintViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationImprintViewModel.swift; sourceTree = "<group>"; };
@@ -2437,6 +2441,8 @@
 				13E5046A248E3CE60086641C /* AppInformation */,
 				EB11B02824EE7C7D00143A95 /* Settings */,
 				85D7596324570491008175F0 /* ENAUITests.swift */,
+				5081BFCE25B593FF004FCCFD /* ENAUITestsContactDiaryStressTest.swift */,
+				5081BFD625B5942A004FCCFD /* MOCK_DATA.csv */,
 				134F0F2B2475793400D88934 /* SnapshotHelper.swift */,
 				A3EE6E5B249BB97500C64B61 /* UITestingParameters.swift */,
 				85D7596524570491008175F0 /* Info.plist */,
@@ -3920,6 +3926,7 @@
 			files = (
 				13E5046C248E434B0086641C /* Localizable.strings in Resources */,
 				13E5046D248E434B0086641C /* Localizable.stringsdict in Resources */,
+				5081BFD725B5942A004FCCFD /* MOCK_DATA.csv in Resources */,
 				AB8B0D4525306089009C067B /* Localizable.links.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4525,6 +4532,7 @@
 				BAEC99C7258B714300B98ECA /* ENAUITests_07_ContactJournalUITests.swift in Sources */,
 				94C24B3F25304B4400F8C004 /* ENAUITestsDeltaOnboarding.swift in Sources */,
 				134F0DBC247578FF00D88934 /* ENAUITestsHome.swift in Sources */,
+				5081BFCF25B593FF004FCCFD /* ENAUITestsContactDiaryStressTest.swift in Sources */,
 				EB11B02A24EE7CA500143A95 /* ENAUITestsSettings.swift in Sources */,
 				134F0DBD247578FF00D88934 /* ENAUITests-Extensions.swift in Sources */,
 				A32842652491136E006B1F09 /* ExposureSubmissionUITests.swift in Sources */,
